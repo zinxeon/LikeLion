@@ -6,7 +6,7 @@ import java.io.FileReader;
 
 public class ReadFile_2 {
     public static void main(String[] args) throws FileNotFoundException {
-        // 두 글자씩 출력
+        // 현재 디렉토리 파일 목록 출력하기
 
         // FileReader(./파일명 작성)
         // ./ 은 디렉토리
