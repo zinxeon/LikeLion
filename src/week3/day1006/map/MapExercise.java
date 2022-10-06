@@ -4,7 +4,9 @@ import java.util.HashMap;
 
 public class MapExercise {
     public static void main(String[] args) {
-        // key,value
+        // key,value 형식
+        // TreeMap<String, String> 도 있음.
+        // hashMap 속도가 빠르기 때문에 자주 사용.
         HashMap<String, String> map = new HashMap<>();
         map.put("김경록", "https://github.com/Kyeongrok");
         map.put("강동연", "https://github.com/dongyeon-0822/java-project-exercise");
