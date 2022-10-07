@@ -11,7 +11,7 @@ import java.util.List;
 
 public class PopulationStatistics {
 
-    /* 내코드,,,,, ㅅㅂ
+    /* 내코드,,,,
     // 한줄씩 불러오기 메소드 생성
     public void readByLine(String filename) {
         FileReader fileReader = new BufferedReader(
