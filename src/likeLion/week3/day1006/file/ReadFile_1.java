@@ -1,6 +1,5 @@
-package week3.day1006.file;
+package likeLion.week3.day1006.file;
 
-import javax.imageio.IIOException;
 import java.io.FileReader;
 import java.io.IOException;
 

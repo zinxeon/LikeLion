@@ -1,8 +1,7 @@
-package week3.day1006.file;
+package likeLion.week3.day1006.file;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 
 public class ReadFile_2 {
     public static void main(String[] args) throws FileNotFoundException {

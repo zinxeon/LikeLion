@@ -1,4 +1,4 @@
-package week3.day1007;
+package likeLion.week3.day1007;
 
 public class PopulationMove {
     private int fromSido;

@@ -1,4 +1,4 @@
-package week3.day1006.collection;
+package likeLion.week3.day1006.collection;
 
 public class RndNumbersWithoutDuplicated {
     public static void main(String[] args) {
