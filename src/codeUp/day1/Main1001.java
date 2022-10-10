@@ -1,4 +1,4 @@
-package codeUp;
+package codeUp.day1;
 
 public class Main1001 {
     public static void main(String[] args) {
