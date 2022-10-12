@@ -1,17 +1,18 @@
 package likeLion.week4.day1011;
 
 public class SumOfDigit {
+    // 알고리즘
     // 방법1
     public int solution1(int n) {
         // n 을 String으로 변경
         String str = String.valueOf(n);
         int result = 0;
-        for(int i = 0; i < str.length(); i++) {
-            result += Integer.parseInt(String.valueOf((str.charAt(i))));
+        for (int i = 0; i < str.length(); i++) {
+            result += Integer.parseInt(String.valueOf(str.charAt(i)));
         }
         // String을 loop 돌면서 parseInt후 더한다.
 
-        return 0;
+        return result;
     }
 
     // 방법2
@@ -39,7 +40,6 @@ public class SumOfDigit {
             result += n % 10;
             n = n / 10;
         }
-
         return result;
     }
 
