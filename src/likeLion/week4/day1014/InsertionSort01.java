@@ -12,6 +12,9 @@ public class InsertionSort01 {
             int temp = arr[i]; // int타입의 temp 변수 선언과 동시에 arr[i] 값 temp에 대입한다.
             arr[i] = arr[i-1]; // arr[i-1]의 값을 arr[i]에 대입한다.
             arr[i-1] = temp; // temp의 값을 arr[i-1]에 대입한다.
+
+            System.out.println(Arrays.toString(arr));
+
         }
 
         return new int[]{};
