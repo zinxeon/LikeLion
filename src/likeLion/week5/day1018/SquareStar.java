@@ -12,7 +12,7 @@ public class SquareStar {
 
     public static void main(String[] args) {
         SquareStar squareStar = new SquareStar();
-        squareStar.printSquare(5);
+        squareStar.printSquare(3);
 
     }
 }
